@@ -240,12 +240,12 @@ end
 if printf '%s\n' '2.2.0' $FISH_VERSION | sort --check=silent --version-sort
   # Current version ≥ 2.2.0
   function __exists -a name -d "Check if a function or program does exist."
-    command -v "$name" ^/dev/null >&2
+    command -v "$name" > /dev/null 2>&1
   end
 else
   # Current version < 2.2.0
   function __exists -a name -d "Check if a function or program does exist."
-    type "$name" ^/dev/null >&2
+    type "$name" > /dev/null 2>&1
   end
 end
 
