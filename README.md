@@ -36,21 +36,26 @@ You can install shellder via various plugin managers.
 ### Zsh, [zinit]
 ```zsh
 # ~/.zshrc
-zinit light simnalamburt/shellder
+zinit light joel-russell/shellder
 ```
 
 ### Fish, [chips]
 ```yaml
 # ~/.config/chips/plugin.yaml
 github:
-- simnalamburt/shellder
+- joel-russell/shellder
 ```
 
 ### Fish, [oh-my-fish]
 ```yaml
 # ~/.config/chips/plugin.yaml
 github:
-- simnalamburt/shellder
+- joel-russell/shellder
+```
+
+### Fisher [fisher]
+```bash
+fisher install joel-russell/shellder
 ```
 
 &nbsp;
@@ -82,6 +87,7 @@ and the [Apache License (Version 2.0)]. See [COPYRIGHT] for details.
 [zinit]: https://github.com/zdharma/zinit
 [chips]: https://github.com/xtendo-org/chips
 [oh-my-fish]: https://github.com/oh-my-fish/oh-my-fish
+[fisher]: https://github.com/jorgebucaran/fisher
 [MIT license]: LICENSE-MIT
 [Apache License (Version 2.0)]: LICENSE-APACHE
 [COPYRIGHT]: COPYRIGHT
