@@ -53,7 +53,7 @@ github:
 - joel-russell/shellder
 ```
 
-### Fisher [fisher]
+### Fisher, [fisher]
 ```bash
 fisher install joel-russell/shellder
 ```
