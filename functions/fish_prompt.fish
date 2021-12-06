@@ -74,6 +74,13 @@ end
 #
 # Components
 #
+
+function prompt_time -d "Display a timestamp at every prompt"
+  if [ "$theme_display_timestamp" = "yes" ]
+    prompt_segment 1C1C1C FFFFFF (date '+%r')
+  end
+end
+
 function prompt_virtual_env -d "Display Python virtual environment"
   if test "$VIRTUAL_ENV"
     prompt_segment white black (basename $VIRTUAL_ENV)
