@@ -265,6 +265,7 @@ function fish_prompt
   prompt_status
   prompt_virtual_env
   prompt_user
+  prompt_time
   prompt_dir
   __exists hg;  and prompt_hg
   __exists git; and prompt_git
