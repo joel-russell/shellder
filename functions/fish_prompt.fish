@@ -77,7 +77,7 @@ end
 
 function prompt_time -d "Display a timestamp at every prompt"
   if [ "$theme_display_timestamp" = "yes" ]
-    prompt_segment 1C1C1C FFFFFF (date '+%r')
+    prompt_segment blue black (date '+%r')
   end
 end
 
